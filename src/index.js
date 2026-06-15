@@ -19,16 +19,16 @@ const COLORS = {
 
 // Tetromino shapes (simplified for easier pattern matching)
 const SHAPES = [
-  [[1]], // Single block
-  [[2, 2]], // Horizontal pair
-  [[3], [3]], // Vertical pair
+  [[1]],        // Single block
+  [[2, 2]],     // Horizontal pair
+  [[3], [3]],   // Vertical pair
   [
     [4, 4],
     [4, 4],
-  ], // 2x2 square
-  [[5, 5, 5]], // Horizontal line of 3
-  [[8]], // Void block (black)
-  [[8, 8]], // Void pair
+  ],            // 2x2 square
+  [[5, 5, 5]],  // Horizontal line of 3
+  [[8]],        // Void block (black)
+  [[8, 8]],     // Void pair
 ];
 
 // Game state
